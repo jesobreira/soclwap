@@ -1,6 +1,8 @@
 <?php
 
-$version = '2.2';
+$version = '2.3';
+
+include 'mysql2i.php';
 
 if($ocultarerros) {
   error_reporting(0);
